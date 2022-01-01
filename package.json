@@ -1,0 +1,21 @@
+{
+  "name": "sms-sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ts-node": "^10.4.0",
+    "twilio": "^3.72.0",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.6",
+    "@types/twilio": "^3.19.3"
+  }
+}
